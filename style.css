@@ -1,0 +1,181 @@
+.header {
+    padding: 20px;
+    text-align: center;
+    background: #294a70;
+    color: rgb(196, 196, 196);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: sticky;
+       top: 0;
+       z-index: 1030;
+  }
+  body{
+      background-color: rgb(6, 162, 235);
+     
+  }
+#ul_header li {
+    display: inline;
+    margin: 1em;
+    text-decoration: none;
+
+}
+#ul_header li a{
+    text-decoration: none;
+    color: white;
+}
+.section1{
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    top: 100px;
+    left: 5%;
+}
+img{
+    border: 5px solid #ffab1f;
+    border-radius: 5px;
+    padding: 1px;
+    width: 300px;
+    
+}
+.section1 .card{
+    position: relative;
+    max-width: 450px;
+    background: #294a70;
+    margin: 10px;
+    padding: 15px;
+}
+li{
+    font-size: 40px;
+    margin: 2em;
+    text-decoration: none;
+}
+i{
+    margin: 15px;
+}
+.section2{
+    position: relative;
+    width: 1000px;
+    left: 90%;
+    bottom: 500px;
+}
+.sec h1{
+    position: relative;
+    top: 1px;
+    left: 43%;
+}
+.article{
+    position: relative;
+    top: 3px;
+    width: 500px;
+    left: 40%;
+    margin: 1em;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.education{
+    width: 700px;
+    height: 400px;
+    padding-left: 2em;
+    font-size: larger;
+}
+.section3{
+    position: relative;
+    left: 20%;
+}
+.hs{
+    position: relative;
+    left: 90%;
+    bottom: 40%;
+}
+.shs{
+    position: relative;
+    left: 160%;
+    bottom: 80%;
+}
+.college{
+    position: relative;
+    left: 240%;
+    bottom: 120%;
+}
+.section4{
+    width: 700px;
+    height: 700px;
+}
+.experience{
+    position: relative;
+    font-size: 30px;
+    left: 170%;
+}
+
+.section4 .card2{
+    position: relative;
+    max-width: 450px;
+    background: #294a70;
+    margin: 10px;
+    padding: 15px;
+    color: azure;
+    left: 70%;
+}
+.card3{
+    position: relative;
+    max-width: 450px;
+    background: #294a70;
+    margin: 10px;
+    padding: 15px;
+    color: azure;
+    left: 240%;
+    bottom: 53%;
+}
+.grid-container{
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,1fr);
+    grid-template-areas:"area1 area1 area2 area2"
+                        "area1 area1 area2 area2"
+                        "area3 area3 area4 area4"
+                        "area3 area3 area4 area4";
+    background-color: #294a70;          
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;          
+}
+.grid-container img{
+    width: 100%;
+}
+.pic-1{
+    grid-area: area1;
+}
+.pic-2{
+    grid-area: area2;
+}
+.pic-3{
+    grid-area: area3;
+}
+.pic-4{
+    grid-area: area4;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background: #98c6fa;
+    color: rgb(7, 0, 0);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#ul_footer li {
+    display: inline;
+    margin: 1em;
+    text-decoration: none;
+
+}
+#ul_footer li a{
+    text-decoration: none;
+    color: white;
+}
